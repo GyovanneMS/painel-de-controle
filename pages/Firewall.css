@@ -25,48 +25,10 @@ main{
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 50PX;
-}
-
-.flip-container { perspective: 1000; }  	
-
-.flip-container:hover .flipper, .flip-container.hover .flipper {  		
-  transform: rotateY(180deg);  	
-}    
-.flip-container, .front, .back {  	
-  width: 320px;  	
-  height: 480px;  
-}
-
-.flipper {  	
-    position: absolute;
-    transition: 0.6s;  	
-    transform-style: preserve-3d;    	
-    width: 260px;
-    height: 70px;
     display: flex;
-    height: 80vh;
+    justify-content: center;
     align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    padding: 4px;
-
-}
-    
-.flipper:hover{
-    box-shadow: 0px 0px 5px #0009;
-}
-
-.front, .back {  	
-    backface-visibility: hidden;    	
-    position: absolute;  	
-    top: 0;  	
-    left: 0;  
-}
-    
-.front { z-index: 2;  
-}    
-
-.back { transform: rotateY(180deg); 
+    flex-direction: column;
 }
 
 
