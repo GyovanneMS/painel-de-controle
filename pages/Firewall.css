@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header{
+    background-color: #ac2222;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    flex-grow: 1;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 50PX;
+}
+
+footer{
+    background-color: #8e5514;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
