@@ -20,8 +20,7 @@ header{
 }
 img{
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: start;
 }
 main{
     background: linear-gradient(#83f7f2, #42d6ed, #27aedb);
