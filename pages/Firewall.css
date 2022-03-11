@@ -12,39 +12,25 @@ body{
 }
 
 header{
-    background-color: #ac2222;
+    background: linear-gradient(orange, yellow, rgb(158, 255, 158));
     height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 main{
-    flex-grow: 1;
-    padding: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    gap: 50PX;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.div{
-    width: 260px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    padding: 4px;
+.texto{
+    outline-style: solid;
+    outline-color: black;
+    border: 1px ridge;
 }
-
-.div:hover{
-    box-shadow: 0px 0px 5px #0009;
-}
-
 
 footer{
     background-color: #8e5514;
