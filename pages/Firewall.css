@@ -18,6 +18,11 @@ header{
     justify-content: center;
     align-items: center;
 }
+img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 main{
     background: linear-gradient(#83f7f2, #42d6ed, #27aedb);
     flex-grow: 1;
