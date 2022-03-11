@@ -16,12 +16,13 @@ header{
     height: 75px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
-img{
-    display: flex;
-    justify-content: start;
+header a{
+    position: absolute;
+    left: 0;
 }
+
 main{
     background: linear-gradient(#83f7f2, #42d6ed, #27aedb);
     flex-grow: 1;
