@@ -32,6 +32,12 @@ main{
     border: 1px ridge;
 }
 
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer{
     background-color: #8e5514;
     height: 50px;
