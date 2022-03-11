@@ -29,13 +29,16 @@ main{
 .texto{
     outline-style: solid;
     outline-color: black;
-    border: 1px ridge;
+    border: 0.5px ridge;
 }
 
 .titulo{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+div { 
+    width: 300px; 
 }
 
 footer{
