@@ -27,7 +27,6 @@ main{
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 50PX;
-    font-size: xx-large;
 }
 
 .item-conteiner{
