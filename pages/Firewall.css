@@ -97,6 +97,8 @@ main{
     background-color: dodgerblue;
     color: white;
     transform: rotateY(-180deg);
+    display: flex;
+    align-items: center;
 }
 
 

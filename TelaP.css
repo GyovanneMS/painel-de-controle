@@ -12,6 +12,8 @@ body{
     font-size:20px;
 }
 
+
+
 header{
     background-color: #0005;
     height: 75px;
@@ -19,6 +21,8 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+
 
 main{
     flex-grow: 1;
