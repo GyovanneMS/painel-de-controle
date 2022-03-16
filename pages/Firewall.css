@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background: linear-gradient(orange, yellow, rgb(158, 255, 158));
+    background: linear-gradient(#0005, #FFF, #0005);
     height: 75px;
     display: flex;
     justify-content: center;
@@ -88,13 +88,12 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(130, 199, 199), rgb(5, 57, 61), rgb(47, 10, 114));
+    background: linear-gradient(#0f0f0f, #000, #0a0a0a);
     color: #FFF;
     transform: scaleX(-1);
 }
 
 .conteudo{
-    background-color: dodgerblue;
     color: white;
     transform: rotateY(-180deg);
     display: flex;
@@ -103,7 +102,7 @@ main{
 
 
 footer{
-    background-color: #8e5514;
+    background: linear-gradient(#0005, #FFF, #0005);
     height: 50px;
     display: flex;
     justify-content: center;
